@@ -5,15 +5,15 @@ So I decided to learn about VAEs and do some experiments on my own, starting wit
 Below are some interesting results in traversing the latent space of `fashionmnist`. The bottom row shows the original images, and the top row shows the VAE's reconstructions — traversing the latent space from the image on the left to the image on the right (directly above each image is its direct reconstruction).
 
 <div class="imgcapleft">
-<img src="/results/inter10.png" style="border:none; width:50%;">
+<img src="/results/inter10.png" style="border:none; width:10%;">
 </div>
 
 <div class="imgcapleft">
-<img src="/results/inter3.png" style="border:none; width:50%;">
+<img src="/results/inter3.png" style="border:none; width:10%;">
 </div>
 
 <div class="imgcapleft">
-<img src="/results/inter2.png" style="border:none; width:50%;">
+<img src="/results/inter2.png" style="border:none; width:10%;">
 </div>
 
 
