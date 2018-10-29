@@ -1,4 +1,22 @@
-Playing around with VAEs :) I try to construct and train VAEs for the mnist and fashionmnist datsets
+I first became interested in VAEs after reading Nielsen's *[Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/).* In particular, I was excited by the idea of interpolating in the latent space of VAEs (and how this is kind of like interpolating in the space of existing human thought). 
+
+So I decided to learn about VAEs and do some experiments on my own, starting with the `mnist` and `fashionmnist` datasets because they seem the most manageable. My implementation follows (but is different from) the one in Chollet's *Deep Learning with Python,* and my code to sample the latent space borrows heavily from his [blog post](https://blog.keras.io/building-autoencoders-in-keras.html) (so it's not very original). 
+
+Below are some interesting results in traversing the latent space of `fashionmnist`. The bottom row shows the original images, and the top row shows the VAE's reconstructions — traversing the latent space from the image on the left to the image on the right (directly above each image is its direct reconstruction).
+
+<div class="imgcapleft">
+<img src="/results/inter10.png" style="border:none; width:100%;">
+</div>
+
+<div class="imgcapleft">
+<img src="/results/inter3.png" style="border:none; width:100%;">
+</div>
+
+<div class="imgcapleft">
+<img src="/results/inter2.png" style="border:none; width:100%;">
+</div>
+
+
 
 ## Project Structure
 - `vae.py` contains the VAE class, which contains all the methods you could do with VAEs (e.g. train, sample latent space, save, etc.)
